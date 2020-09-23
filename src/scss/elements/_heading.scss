@@ -1,0 +1,20 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--font-secondaire);
+  font-size: var(--font-large);
+  color: var(--color-text-primaire);
+  line-height: var(--lh-thin);
+}
+
+h1{
+  font-size: var(--font-extra-large);
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: var(--font-hudge);
+  text-transform: uppercase;
+}
+
+.h3hero{
+  font-size: var(--font-medium);
+}
