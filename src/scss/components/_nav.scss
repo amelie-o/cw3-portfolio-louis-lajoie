@@ -1,5 +1,9 @@
 nav{
 
+  padding: var(--padding-thin);
+
+  width: 100%;
+
   ul {
     display: flex;
     flex-direction: row;
@@ -13,4 +17,18 @@ nav{
     list-style: none;
   }
 
+}
+
+
+
+
+@media screen and (min-width: $vw-medium){
+
+ nav{
+   width: auto;
+
+   li{
+     margin-left: var(--margin-thin);
+   }
+ }
 }

@@ -1,7 +1,11 @@
 header{
-  display: flex;
-  flex-direction: column;
 
+  padding: var(--padding-thin);
+
+  .flex{
+    display: flex;
+    flex-direction: column;
+  }
 
   .entete{
     display: flex;
@@ -12,7 +16,24 @@ header{
   }
 
   img{
-    width: 15%;
+    width: 50px;
     margin-right: var(--margin-thin);
   }
+}
+
+
+
+
+@media screen and (min-width: $vw-medium){
+
+  header{
+
+    .flex{
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+  }
+
 }
